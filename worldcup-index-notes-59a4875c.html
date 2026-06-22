@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界杯 · 简明指南与访问说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #fbfcfd;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1e2a3a;
+      line-height: 1.7;
+      padding: 2.4rem 1.2rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.03), 0 4px 24px rgba(0, 0, 0, 0.02);
+      padding: 2.8rem 2rem 3.2rem;
+    }
+    @media (max-width: 520px) {
+      body {
+        padding: 1.2rem 0.6rem;
+      }
+      .container {
+        padding: 2rem 1.2rem;
+        border-radius: 16px;
+      }
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #0a1a2b;
+      margin-bottom: 0.25rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid #e9edf0;
+    }
+    .subhead {
+      font-size: 1.1rem;
+      color: #50657a;
+      margin-top: 0.2rem;
+      margin-bottom: 2rem;
+      font-weight: 400;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #1e3b4f;
+      margin-top: 2.4rem;
+      margin-bottom: 0.8rem;
+      padding-left: 0.4rem;
+      border-left: 4px solid #b4cddc;
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #2c4054;
+      margin-top: 1.6rem;
+      margin-bottom: 0.3rem;
+    }
+    p {
+      margin: 0.8rem 0 1.2rem;
+      font-size: 1rem;
+      color: #21313f;
+    }
+    .highlight-box {
+      background: #f6f9fc;
+      border-radius: 14px;
+      padding: 1.2rem 1.6rem;
+      margin: 1.6rem 0;
+      border: 1px solid #e4ebf1;
+    }
+    .highlight-box p {
+      margin: 0.3rem 0;
+    }
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin: 1.8rem 0;
+    }
+    .feature-item {
+      flex: 1 1 180px;
+      background: #fafcfd;
+      border-radius: 16px;
+      padding: 1rem 1.2rem;
+      border: 1px solid #e7edf2;
+      transition: box-shadow 0.15s ease;
+    }
+    .feature-item:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+    .feature-item .emoji-marker {
+      display: block;
+      font-size: 1.4rem;
+      margin-bottom: 0.2rem;
+      color: #3f6b85;
+    }
+    .feature-item strong {
+      font-weight: 500;
+      color: #1a3142;
+    }
+    .note-callout {
+      background: #f6f2ec;
+      border-left: 5px solid #b0885c;
+      padding: 0.9rem 1.4rem;
+      border-radius: 0 12px 12px 0;
+      margin: 1.8rem 0;
+      font-size: 0.95rem;
+      color: #2d3d4b;
+    }
+    .faq-block {
+      margin: 1.8rem 0 1rem;
+    }
+    .faq-q {
+      font-weight: 500;
+      margin-top: 1.2rem;
+      margin-bottom: 0.2rem;
+      color: #1a2f3f;
+    }
+    .faq-a {
+      margin-left: 0.8rem;
+      color: #3b4f60;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #e3e9ef;
+      margin: 2.2rem 0 1.6rem;
+    }
+    .footer-note {
+      font-size: 0.9rem;
+      color: #6f8295;
+      margin-top: 1.6rem;
+      border-top: 1px solid #edf1f5;
+      padding-top: 1.2rem;
+      text-align: center;
+    }
+    a {
+      color: #1f5a7a;
+      text-decoration: none;
+      border-bottom: 1px solid #cbdbe8;
+      transition: color 0.1s, border-color 0.1s;
+    }
+    a:hover {
+      color: #0c3b57;
+      border-bottom-color: #0c3b57;
+    }
+    .inline-link-highlight {
+      font-weight: 450;
+    }
+    .tag {
+      display: inline-block;
+      background: #e1eaf1;
+      color: #1e4058;
+      font-size: 0.75rem;
+      padding: 0.15rem 0.7rem;
+      border-radius: 30px;
+      letter-spacing: 0.02em;
+      margin-right: 0.4rem;
+    }
+    @media (max-width: 420px) {
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>世界杯 · 简明指南</h1>
+  <div class="subhead">索引、数据与日常参考 · 一条实用线索</div>
+
+  <p>
+    如果你正在寻找一个结构清晰、信息集中的<strong>世界杯</strong>参考资料，那么下面整理的摘要和提醒或许可以节省一些时间。这里不堆叠冗余的资讯流，只围绕赛事数据、球队演进和历史指标做整理，方便快速查阅或做小范围对比。
+  </p>
+
+  <div class="highlight-box">
+    <p><span class="tag">摘要</span> 页面围绕历届决赛圈基础数据、冠军分布、参赛队变化趋势整理而成，适合赛前扫读、赛后核对，或作为轻量级知识备份。</p>
+  </div>
+
+  <h2>亮点与覆盖范围</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <span class="emoji-marker">🏆</span>
+      <strong>历届冠军·年份</strong><br>
+      从1930到2022，冠军队及举办地一览，便于横向对比。
+    </div>
+    <div class="feature-item">
+      <span class="emoji-marker">📊</span>
+      <strong>参赛队·扩军历程</strong><br>
+      13支→16支→24支→32支，各阶段分组与赛制说明。
+    </div>
+    <div class="feature-item">
+      <span class="emoji-marker">🌍</span>
+      <strong>大洲分布统计</strong><br>
+      决赛圈席位按洲际分配，以及冠军归属的洲际脉络。
+    </div>
+    <div class="feature-item">
+      <span class="emoji-marker">📅</span>
+      <strong>赛事阶段速览</strong><br>
+      小组赛、淘汰赛轮次、经典比分参考。
+    </div>
+  </div>
+
+  <h2>使用建议</h2>
+  <p>
+    该索引适合作为桌面端或移动端的<strong>快速查询工具</strong>。建议在浏览赛事新闻或讨论历史对阵时，打开该页面做即时比对。页面本身保持轻量，没有自动刷新或推送，数据更新节奏跟随FIFA官方公布周期。
+  </p>
+  <p>
+    如果你需要更系统的研究报告或深度战术分析，推荐将本站作为基础数据锚点，再配合其他专业统计平台交叉使用。
+  </p>
+
+  <h2>访问说明（可信、克制）</h2>
+  <p>
+    <strong>worldcup-index-fifa.com</strong> 是一个非官方信息索引站点，内容基于公开的FIFA统计数据、赛事规程及历史档案汇编整理。页面不收集用户信息，无商业广告，仅提供文本与表格形式的参考内容。所有数据均标注来源范围，并定期核对；但仍建议以FIFA官方发布为最终依据。
+  </p>
+  <p>
+    如果你希望直接查阅原始赛事记录与最新动态，可以访问 <a href="https://worldcup-index-fifa.com" class="inline-link-highlight">世界杯</a> 页面，那里聚合了主要历史数据与赛程索引。
+  </p>
+
+  <div class="note-callout">
+    <strong>📌 访问提醒</strong><br>
+    本站采用静态内容，无登录或下载要求。建议使用主流浏览器（Chrome / Firefox / Safari 最新版本）以获得最佳排版效果。移动端阅读时，表格会自动适配屏幕宽度，部分宽表可横向滑动查看。
+  </div>
+
+  <h2>常见问题摘要</h2>
+  <div class="faq-block">
+    <div class="faq-q">Q：数据更新到什么时间？</div>
+    <div class="faq-a">A：涵盖截至2022年卡塔尔世界杯的全部决赛圈数据。2026年新赛制信息将在官方确认后补充。</div>
+
+    <div class="faq-q">Q：是否包含预选赛数据？</div>
+    <div class="faq-a">A：目前以决赛圈为核心，预选赛仅收录各大洲出线名额分配，不包含具体对阵。</div>
+
+    <div class="faq-q">Q：页面会频繁变动吗？</div>
+    <div class="faq-a">A：索引内容按赛季更新，非重大修正不做频繁改动。你可以随时通过上方链接回来核对。</div>
+  </div>
+
+  <hr>
+  <div class="footer-note">
+    内容仅供参考，不构成任何投注或决策建议。<br>
+    数据整理依托公开资料 · 保持简明
+  </div>
+</div>
+</body>
+</html>
